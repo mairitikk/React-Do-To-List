@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
   return (
     <li>
@@ -10,7 +11,7 @@ export function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
         {title}
       </label>
       <button onClick={() => deleteTodo(id)} className="btn btn-danger">
-        Delete
+        Kustuta
       </button>
     </li>
   )
