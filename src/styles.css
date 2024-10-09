@@ -1,11 +1,13 @@
-* {
+html {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background: #333;
-    color: hsl(200, 100%, 90%);
+    background: #f5e3f4;
+    /* Light pink background */
+    color: #000000;
+    /* Black text for better contrast */
     max-width: 400px;
     padding: 1rem;
     margin: 0 auto;
@@ -24,9 +26,13 @@ body {
 }
 
 .btn {
-    background: hsl(200, 100%, 50%, 0.1);
-    border: 1px solid hsl(200, 100%, 50%);
-    color: hsl(200, 100%, 50%);
+    background:
+        #f5e3f4;
+    /* Light pink background */
+    border: 1px solid #d9b6d9;
+    /* Pink border */
+    color: #d9b6d9;
+    /* Pink text */
     padding: 0.25em 0.5em;
     border-radius: 0.25em;
     cursor: pointer;
@@ -35,31 +41,44 @@ body {
 
 .btn:hover,
 .btn:focus-visible {
-    background: hsl(200, 100%, 50%, 0.2);
+    background: #d9b6d9;
+    /* Darker pink background on hover */
+    color: #000000;
+    /* Black text for better contrast on hover */
 }
 
 .btn.btn-danger {
-    background: hsl(0, 100%, 40%, 0.1);
-    border: 1px solid hsl(0, 100%, 40%);
-    color: hsl(0, 100%, 40%);
+    background: #f5e3f4;
+    /* Light pink background */
+    border: 1px solid #d9b6d9;
+    /* Pink border */
+    color: #d9b6d9;
+    /* Pink text */
 }
 
 .btn.btn-danger:hover,
 .btn.btn-danger:focus-visible {
-    background: hsl(0, 100%, 40%, 0.2);
+    background: #d9b6d9;
+    /* Darker pink background on hover */
+    color: #000000;
+    /* Black text for better contrast on hover */
 }
 
 .new-item-form input {
     outline: none;
-    border: 1px solid hsl(200, 100%, 40%);
-    background: hsl(200, 100%, 30%);
+    border: 1px solid #d9b6d9;
+    /* Pink border */
+    background: #f5e3f4;
+    /* Light pink background */
     border-radius: 0.25em;
     padding: 0.25em 0.5em;
-    color: hsl(200, 100%, 90%);
+    color: #000000;
+    /* Black text for better contrast */
 }
 
 .new-item-form input:focus {
-    border: 1px solid hsl(200, 100%, 70%);
+    border: 1px solid #d9b6d9;
+    /* Darker pink border on focus */
 }
 
 .header {
@@ -76,7 +95,9 @@ body {
 }
 
 .list li:has(input:checked) label {
-    color: hsl(200, 20%, 40%);
+    color:
+        #d9b6d9;
+    /* Pink text for checked items */
 }
 
 .list {
@@ -99,7 +120,9 @@ body {
 }
 
 .list li:has(input:focus-visible) label {
-    outline: 1px solid hsl(200, 100%, 50%);
+    outline:
+        1px solid #d9b6d9;
+    /* Pink outline on focus */
 }
 
 .list li input {
@@ -116,7 +139,11 @@ body {
     display: block;
     width: 0.9rem;
     height: 0.9rem;
-    background: hsl(200, 100%, 90%);
+    background:
+        #ffffff;
+    /* White background for checkbox */
+    border: 1px solid #d9b6d9;
+    /* Pink border for checkbox */
     border-radius: 0.25em;
     display: flex;
     justify-content: center;
@@ -124,17 +151,25 @@ body {
 }
 
 .list li label:hover::before {
-    background: hsl(200, 100%, 80%);
+    background: #d9b6d9;
+    /* Darker pink background on hover */
+    border: 1px solid #000000;
+    /* Black border for better visibility */
 }
 
 .list li:has(input:checked) label::before {
     content: "✔";
-    background: hsl(200, 100%, 40%);
-    color: hsl(200, 100%, 90%);
+    background: #d9b6d9;
+    /* Dark pink background for checked checkbox */
+    color: #000000;
+    /* Black text for checked checkbox */
     font-size: 0.75rem;
     font-weight: bold;
 }
 
 .list li:has(input:checked) label:hover::before {
-    background: hsl(200, 100%, 30%);
+    background: #d9b6d9;
+    /* Darker pink background on hover for checked checkbox */
+    border: 1px solid #000000;
+    /* Black border for better visibility */
 }
