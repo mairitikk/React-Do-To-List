@@ -45,7 +45,7 @@ export default function App() {
   return (
     <>
       <NewTodoForm onSubmit={addTodo} />
-      <h1 className="header">Täna tegemist vajavad ülessanded</h1>
+      <h1 className="header">Täitmist vajavate ülesannete nimekiri</h1>
       <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
     </>
   )
