@@ -11,9 +11,18 @@ body {
     /* Light pink background */
     color: #e233e2;
     /* Black text for better contrast */
-    max-width: auto;
+    
     padding: 1rem;
     margin: 0 auto;
+    background-image: url('assets/background.jpg');
+        /* Replace with the actual path to your image */
+        background-size: cover;
+        /* Adjust the size to fit the screen */
+        background-repeat: no-repeat;
+        /* Prevent the image from repeating */
+        background-position: center;
+        /* Center the image vertically and horizontally */
+        height: 100vh;
 }
 
 .container{
@@ -28,12 +37,7 @@ flex: 0 0 30%;
 .form-row {
 flex: 0 0 70%;
 }
-.pealkiri{
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
+
 
 .btn {
     background:
@@ -93,8 +97,8 @@ flex: 0 0 70%;
 }
 
 .header {
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    margin-top: 9.5rem;
     margin-bottom: 0.5rem;
 }
 
