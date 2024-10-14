@@ -10,8 +10,8 @@ export function TodoItem({ completed, id, title, toggleTodo, deleteTodo }) {
         />
         {title}
       </label>
-      <button onClick={() => deleteTodo(id)} className="btn">
-        Kustuta
+      <button onClick={() => deleteTodo(id)} className="btn1">
+        <img src="/src/assets/cross.png" alt="" />
       </button>
     </li>
   )

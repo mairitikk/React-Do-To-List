@@ -61,7 +61,25 @@ body {
     margin-bottom: 10px;
     border-radius: 2em;
 }
+.btn1 {
+    background-color: transparent;
+    /* Remove button background */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    padding: 0;
+    /* Remove button padding */
+    width: 20px;
+    /* Adjust button width as needed */
+    height: 20px;
+    /* Adjust button height as needed */
+}
 
+.btn1 img {
+    width: 100%;
+    /* Make image fill the button */
+    height: 100%;
+}
 .btn {
     background:
         #f5e3f4;
