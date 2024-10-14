@@ -57,6 +57,10 @@ body {
     }
 }
 
+.vorm {
+    margin-bottom: 10px;
+    border-radius: 2em;
+}
 
 .btn {
     background:
@@ -64,7 +68,7 @@ body {
     /* Light pink background */
     border: 1px solid #d9b6d9;
     /* Pink border */
-    color: #d9b6d9;
+    color: #cf4bcf;
     /* Pink text */
     padding: 0.25em 0.5em;
     border-radius: 0.25em;
