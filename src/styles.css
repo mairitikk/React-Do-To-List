@@ -25,17 +25,36 @@ body {
         height: 100vh;
 }
 
-.container{
+.container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    /* Change to column for smaller screens */
 }
 
 .new-item-form {
-flex: 0 0 30%;
+    flex: 0 0 100%;
+    /* Take up the full width on smaller screens */
 }
 
 .form-row {
-flex: 0 0 70%;
+    flex: 0 0 100%;
+    /* Take up the full width on smaller screens */
+}
+
+@media (min-width: 768px) {
+
+    /* Adjust the breakpoint as needed */
+    .container {
+        flex-direction: row;
+    }
+
+    .new-item-form {
+        flex: 0 0 30%;
+    }
+
+    .form-row {
+        flex: 0 0 70%;
+    }
 }
 
 
