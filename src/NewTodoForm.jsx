@@ -9,7 +9,7 @@ export function NewTodoForm({ onSubmit }) {
     if (newItem === "") return
 
     onSubmit(newItem)
-
+    
     setNewItem("")
   }
 

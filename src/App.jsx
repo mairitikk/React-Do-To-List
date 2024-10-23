@@ -6,8 +6,14 @@ import { TodoList } from "./TodoList"
 export default function App() {
   const [todos, setTodos] = useState(() => {
     const localValue = localStorage.getItem("ITEMS")
+    
+    // llamar API para tener todos los valores
+    // fetch('https://dummyjson.com/todos')
+    //.then(res => res.json())
+    //.then(console.log);
+    
     if (localValue == null) return []
-
+    
     return JSON.parse(localValue)
   })
 
