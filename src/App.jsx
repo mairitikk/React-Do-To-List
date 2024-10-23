@@ -52,7 +52,17 @@ export default function App() {
     <div className="container">
       <NewTodoForm onSubmit={addTodo} />
     <div>
-      <h1 className="header">Ülessanded</h1>
+        <h1 className="header">
+          <span>Ü</span>
+          <span>l</span>
+          <span>e</span>
+          <span>s</span>
+          <span>a</span>
+          <span>n</span>
+          <span>d</span>
+          <span>e</span>
+          <span>d</span>
+          </h1>
         <TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
       </div>
     </div>
