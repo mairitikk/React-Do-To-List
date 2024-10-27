@@ -88,11 +88,13 @@ body {
     /* Pink border */
     color: #cf4bcf;
     /* Pink text */
-    padding: 0.25em 0.5em;
+    padding: 0.55em 0.5em;
     border-radius: 1.25em;
     cursor: pointer;
     outline: none;
-    width: 15%;
+    width: 25%;
+    font-size: medium;
+    text-transform: uppercase;
 }
 
 .btn:hover,
