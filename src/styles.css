@@ -128,8 +128,10 @@ body {
     /* Pink border */
     background: #f5e3f4;
     /* Light pink background */
-    border-radius: 0.25em;
-    padding: 0.25em 0.5em;
+    border-radius: 2.25em;
+    padding: 1em 0.5em;
+    width: 75%;
+    
     color: #000000;
     /* Black text for better contrast */
 }
