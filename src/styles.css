@@ -211,6 +211,7 @@ margin-top: 5rem;
     padding: 0;
     margin-left: 1rem;
     list-style: none;
+    font-size: 22px;
 }
 
 .list li:has(input:checked) label {
