@@ -13,7 +13,7 @@ body {
     /* Black text for better contrast */
     
     padding: 1rem;
-    margin: 0 auto;
+    margin: 0 20px;
     background-image: url('assets/background.jpg');
         /* Replace with the actual path to your image */
         background-size: cover;
