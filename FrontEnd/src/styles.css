@@ -145,6 +145,7 @@ body {
   
   display: table-cell;
   animation: animate 8.25s linear infinite;
+text-transform: uppercase;
   
 }
 .header span:nth-child(1) {
@@ -199,6 +200,7 @@ body {
 }
 .header .header2{
     font-size: 3.5rem;
+   
     margin-top: 9.5rem;
     margin-bottom: 0.5rem;
     
